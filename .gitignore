@@ -209,6 +209,5 @@ __marimo__/
 data/
 *.csv
 *.xlsx
-*.txt
 pynance/
 .vscode/
