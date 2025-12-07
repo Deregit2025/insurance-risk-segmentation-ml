@@ -1,0 +1,10 @@
+/config.local
+/tmp
+/cache
+# Ignore everything
+*
+
+# Allow folders and DVC metadata
+!*/
+!*.dvc
+!.gitignore

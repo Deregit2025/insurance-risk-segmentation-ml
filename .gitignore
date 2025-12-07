@@ -206,8 +206,15 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 .venv/
-data/
-*.csv
-*.xlsx
+
+# Ignore all data files
+data/**
+
+# Track DVC files
+!data/**/*.dvc
+!data/.gitignore
+
+
+
 pynance/
 .vscode/
